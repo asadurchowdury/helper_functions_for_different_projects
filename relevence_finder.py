@@ -1,3 +1,4 @@
+import numpy as np
 def relevence_finder(lst):
     '''given a list of precision score, this function finds which documents are relevent'''
     rel_index = np.zeros(len(lst))
